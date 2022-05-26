@@ -368,7 +368,7 @@ EOT;
     wp_send_json_success( $results );
   }
 
-  public function supportedLanguages() {
+  public static function supportedLanguages() {
     return array(
       'arabic'      => 'Arabic',
       'danish'      => 'Danish',
